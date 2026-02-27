@@ -103,10 +103,11 @@ __pypackages__/
 # Python tools
 .pdm.toml
 .pdm-python
-
+deployment/*
 # Training Runs
 ml_ops/*/bert_runs/
 ml_ops/*/data_snapshots/
+
 # Keep lockfiles tracked in this repo (uv.lock is committed), so do NOT ignore them.
 # uv: no special ignores required beyond virtualenvs above
 
